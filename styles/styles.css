@@ -2,11 +2,14 @@
 .body{
 
 font-family: 'Roboto', sans-serif;
-background-color:#E5E5E5 ;
+background-color:#E5E5E5; 
+display: block;
+
 }
 
 /* header styles */
 .logo-link{
+
     font-size: 26px;
     font-family: 'Raleway';
     font-style: normal;
