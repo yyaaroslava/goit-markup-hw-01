@@ -1,33 +1,146 @@
 
-body{
-font-family: 'Raleway', sans-serif;
+.body{
+
 font-family: 'Roboto', sans-serif;
-font-size: 16px;
-position: relative;
-height:auto;
 background-color:#E5E5E5 ;
-display: inline-block;
-width: 100%;
-margin: 0px auto;
-
-  
 }
+
 /* header styles */
+.logo-link{
+    font-size: 26px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    text-decoration: none;
+}
+
+.logo-studio{ color: #000000;;}
+
 .menu{
- background-color:#FFFFFF ;
-    width:  auto;
-    height: 80%;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0;
-   
+    font-family: 'Roboto';
+        font-style:normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        list-style: none;
 }
-.menubar{
-    height: 80px;
-    display: flex;
-   list-style: none;
-   padding-left: 0%;
-   margin-bottom: 0%;
+
+.studio{
+    color: #2196F3;
+    text-decoration: none;}
+  .portfolio{
+   text-decoration: none;
+   color: #212121;
+    }
+  
+.contacts{
+ color: #757575;
+ text-decoration: none;
+}
+
+.main-text{font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color:#FFFFFF ;}
+
+
+.button{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 30px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color:#FFFFFF  ;
+}
+
+.secondary{
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+}
+
+.characteristic{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+    list-style: none;
+}
+.character{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
+
+.photo-list{
+    list-style: none;
+    
+}
+
+.portrets{
+    list-style: none;
+    
+
 }
 
 
+
+.text-name{
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.prof{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
+.city{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+}
+    
