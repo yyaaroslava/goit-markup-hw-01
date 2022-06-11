@@ -40,6 +40,9 @@ display: block;
    text-decoration: none;
    color: #212121;
     }
+
+ 
+ 
   
 .contacts{
  color: #757575;
@@ -68,7 +71,18 @@ color:#FFFFFF ;}
         text-align: center;
         letter-spacing: 0.06em;
         color:#FFFFFF  ;
+        
 }
+.button:hover{
+    color: #FFFFFF;
+    background-color: #2196F3;}
+
+
+    
+
+
+
+
 
 .secondary{
 
@@ -146,4 +160,18 @@ color:#FFFFFF ;}
         letter-spacing: 0.03em;
         color: #FFFFFF;
 }
+.portfolio1:hover{color: #2196F3;
+
+}
+.portfolio1{
+    text-decoration: none;
+        color: #212121;
+}
     
+.contacts1:hover{
+    color: #2196F3;
+}
+.contacts1{
+    color: #757575;
+        text-decoration: none;
+    }
