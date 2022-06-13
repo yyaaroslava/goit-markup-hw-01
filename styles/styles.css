@@ -1,8 +1,8 @@
 
-.body{
+body{
 
 font-family: 'Roboto', sans-serif;
-background-color:#E5E5E5; 
+background: #F5F4FA;
 display: block;
 
 }
@@ -23,6 +23,15 @@ display: block;
 
 .logo-studio{ color: #000000;;}
 
+header{
+    background-color: #FFFFFF;
+    position: absolute;
+        width: 1600px;
+        height: 80px;
+        left: -5px;
+        top: 0px;
+        
+}
 .menu{
     font-family: 'Roboto';
         font-style:normal;
@@ -31,7 +40,16 @@ display: block;
         line-height: 16px;
         letter-spacing: 0.02em;
         list-style: none;
+        display: flex;
+position: absolute;
+left: 0;
+      margin: 0 auto;
+      
+      
 }
+
+
+
 
 .studio{
     color: #2196F3;
@@ -47,6 +65,8 @@ display: block;
 .contacts{
  color: #757575;
  text-decoration: none;
+display: flex;
+
 }
 
 .main-text{font-family: 'Roboto';
@@ -61,24 +81,31 @@ color:#FFFFFF ;}
 
 
 .button{
+        width: 200px;
+        height: 50px;
+        left: 700px;
+        top: 430px;
+    
+        background: #2196F3;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        border-color: transparent;
+
+}
+
+.che{
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
         font-size: 16px;
         line-height: 30px;
-        display: flex;
         align-items: center;
         text-align: center;
         letter-spacing: 0.06em;
-        color:#FFFFFF  ;
-        
+        color: #FFFFFF;
 }
-.button:hover{
-    color: #FFFFFF;
-    background-color: #2196F3;}
 
 
-    
 
 
 
@@ -159,6 +186,7 @@ color:#FFFFFF ;}
         line-height: 24px;
         letter-spacing: 0.03em;
         color: #FFFFFF;
+        text-decoration: none;
 }
 .portfolio1:hover{color: #2196F3;
 
@@ -175,3 +203,26 @@ color:#FFFFFF ;}
     color: #757575;
         text-decoration: none;
     }
+.menu1{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        list-style: none;
+        display: flex;
+}
+.menu2{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        list-style: none;
+        display: flex;
+
+
+    
+}
